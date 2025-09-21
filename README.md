@@ -54,7 +54,7 @@ Dependencies will be installed automatically in later updates.
 Installation is simple. Just clone the repo and run Install.sh.
 ```shell
 git clone https://github.com/Puglover011/Puglovers-Hyprland.git
-cd Minimal-Hyprland
+cd Puglovers-Hyprland
 bash Install.sh
 ```
 Do not run the script as root. Doing so can cause permission issues with the configuration files.
