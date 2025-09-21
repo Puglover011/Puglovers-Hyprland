@@ -22,16 +22,16 @@ Dependencies will be installed automatically in later updates.
 
 ## Gallery
 
-![Snowy Northern Lights] (Screenshots/Snow_Lights.png "This is a sample image.")
-![Ocean Northern Lights] (Screenshots/Ocean_Lights.png "This is a sample image.")
-![Snowy House] (Screenshots/Snowy_House.png "This is a sample image.")
-![Art Forest] (Screenshots/"Artistic.png" "This is a sample image.")
+![Snowy Northern Lights] (https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Snowy_Lights.png?raw=true)
+![Ocean Northern Lights] (https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Ocean_Lights.png?raw=true)
+![Snowy House] (https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Snowy_House.png?raw=true)
+![Art Forest] (https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Artistic.png?raw=true)
 
 ## Installation
 
 Installation is simple. Just clone the repo and run Install.sh.
 ```shell
-git clone https://GitHub.com/Puglover011/PugloverHyprland.git
+git clone https://github.com/Puglover011/Puglovers-Hyprland.git
 cd Minimal-Hyprland
 sh Install.sh
 ```
