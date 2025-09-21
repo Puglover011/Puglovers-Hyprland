@@ -22,10 +22,10 @@ Dependencies will be installed automatically in later updates.
 
 ## Gallery
 
-![Snowy Northern Lights] (https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Snowy_Lights.png?raw=true)
-![Ocean Northern Lights] (https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Ocean_Lights.png?raw=true)
-![Snowy House] (https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Snowy_House.png?raw=true)
-![Art Forest] (https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Artistic.png?raw=true)
+![Snowy Northern Lights](https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Snowy_Lights.png?raw=true)
+![Ocean Northern Lights](https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Ocean_Lights.png?raw=true)
+![Snowy House](https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Snowy_House.png?raw=true)
+![Art Forest](https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Artistic.png?raw=true)
 
 ## Installation
 
