@@ -18,13 +18,13 @@ fi
 if [[ "$response" =~ ^[Yy]$ ]]; then
   echo "Proceeding..."
   echo "Copying Hyprland config..."
-  cp ./Configs/hypr ~/.config
+  cp -r ./Configs/hypr ~/.config
   echo "Copying Hyprwall config..."
-  cp ./Configs/hyprwall ~/.config
+  cp -r ./Configs/hyprwall ~/.config
   echo "Copying WayBar config..."
-  cp ./Configs/waybar ~/.config
+  cp -r ./Configs/waybar ~/.config
   echo "Copying Wofi config..."
-  cp ./Configs/wofi ~/.config
+  cp -r ./Configs/wofi ~/.config
   echo "Generating screenshots folder..."
   mkdir ~/Pictures/Screenshots
   echo
@@ -40,7 +40,7 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
   if [[ "$response2" =~ ^[Yy]$ ]]; then
     echo "Proceeding..."
     echo "Copying wallpapers..."
-    cp ./Wallpapers ~/Pictures
+    cp -r ./Wallpapers ~/Pictures
     echo "Copying wallpapers complete!"
     echo
     fi
