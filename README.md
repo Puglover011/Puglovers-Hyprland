@@ -22,28 +22,36 @@ Dependencies will be installed automatically in later updates.
 
 ## Gallery
 
-![This is an alt text.](/image/sample.webp "This is a sample image.")
+![Snowy Northern Lights] (Screenshots/Snow_Lights.png "This is a sample image.")
+![Ocean Northern Lights] (Screenshots/Ocean_Lights.png "This is a sample image.")
+![Snowy House] (Screenshots/Snowy_House.png "This is a sample image.")
+![Art Forest] (Screenshots/"Artistic.png" "This is a sample image.")
 
 ## Installation
 
-Installation is simple. Just clone the repo and run Install.sh
+Installation is simple. Just clone the repo and run Install.sh.
 ```shell
 git clone https://GitHub.com/Puglover011/PugloverHyprland.git
 cd Minimal-Hyprland
 sh Install.sh
 ```
+Do not run the script as root. Doing so can cause permission issues with the configuration files.
 
 ## Usage
-To open terminal:
-```keystroke
+Here are some useful keybinds to know;
+
+- To open a terminal window:
+```Keystroke
 Ctrl + alt + T 
-```       
-To open wallpaper manager:
-````keystroke
+```
+
+- To open the wallpaper manager:
+```Keystroke
 SUPER + W
-````
-To force close focused window:
-````keystroke
+```
+
+- To force close the currently focused window:
+```Keystroke
 SUPER + Q
 ````
 
@@ -56,8 +64,16 @@ Configs for the utility bar are located in:
 ````Directory
 ~/.config/waybar
 ````
-Configs for the app menu (wofi) are in:
+Configurations for the app menu (Wofi) are located in:
 ````Directory
 ~/.config/wofi
 
 ````
+
+## Known Issues
+- Wallpaper not transferring between sessions.
+- Bluetooth icon not showing on utility bar on some devices.
+- Connecting to WiFi from the utility bar menu can be very problematic. I plan to replace this soon.
+- Log out button not working.
+
+If you find any issues, feel free to submit an issue!
