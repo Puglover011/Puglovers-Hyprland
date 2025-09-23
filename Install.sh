@@ -6,6 +6,10 @@ echo " - Hyprwall"
 echo " - WayBar"
 echo " - Wofi"
 echo
+echo "The script will also compile the following programs from source:
+echo
+echo " - hyprpolkitagent"
+echo
 read -n 1 -p "Would you like to proceed? [Y/N] " response
 echo
 echo
