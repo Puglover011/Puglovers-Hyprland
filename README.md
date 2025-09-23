@@ -44,7 +44,6 @@ This is still an early version, there are bound to be bugs and issues. Please up
 * [Waybar](https://github.com/Alexays/Waybar)
 * [Wofi](https://github.com/SimplyCEO/wofi)
 * [Mako](https://github.com/emersion/mako)
-* [LXQT-PolicyKit](https://github.com/lxqt/lxqt-policykit)
 * [Cliphist](https://github.com/sentriz/cliphist)
 
 Dependencies will be installed automatically in later updates.
@@ -97,6 +96,7 @@ Configurations for the app menu (Wofi) are located in:
 - Bluetooth icon not showing on utility bar on some devices.
 - Connecting to WiFi from the utility bar menu can be very problematic. I plan to replace this soon.
 - Log out button not working.
+- Authentication agent not authenticating.
 
 If you find any issues, feel free to submit an issue!
 
