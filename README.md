@@ -4,29 +4,29 @@ Minimal yet functional preconfigured setup for Hyprland. This is just something 
 
 ## Table of Contents
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/Experimental/README.md#puglovers-minimal-hyprland">Title</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#puglovers-minimal-hyprland">Title</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/Experimental/README.md#table-of-contents">Table of Contents</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#table-of-contents">Table of Contents</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/Experimental/README.md#notice">Notice</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#notice">Notice</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/Experimental/README.md#gallery">Gallery</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#gallery">Gallery</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/Experimental/README.md#dependencies">Dependencies</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#dependencies">Dependencies</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/Experimental/README.md#installation">Installation</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#installation">Installation</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/Experimental/README.md#usage">Usage</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#usage">Usage</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/Experimental/README.md#customise">Customise</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#customise">Customise</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/Experimental/README.md#known-issues">Known Issues</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#known-issues">Known Issues</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/Experimental/README.md#to-do-list">To-do List</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#to-do-list">To-do List</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/Experimental/README.md#credits">Credits</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#credits">Credits</a>
 
-  - <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/Experimental/README.md#wallpapers">Wallpapers</a>
+  - <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#wallpapers">Wallpapers</a>
 
 ## Notice
 This is the experimental branch. New features being tested will happen here. I reccomend downloading from the (main)[https://github.com/Puglover011/Puglovers-Hyprland] branch if you do not want unexpected issues to happen. I cannot guarantee the stability or functionality of this branch.
@@ -36,10 +36,10 @@ This is the experimental branch. New features being tested will happen here. I r
 
 ## Gallery
 
-![Island](https://github.com/Puglover011/Puglovers-Hyprland/blob/Experimental/Screenshots/Island.png?raw=true)
-![Marmot](https://github.com/Puglover011/Puglovers-Hyprland/blob/Experimental/Screenshots/Marmot.png?raw=true)
-![Mountainscape](https://github.com/Puglover011/Puglovers-Hyprland/blob/Experimental/Screenshots/Mountainscape.png?raw=true)
-![Forest Tower](https://github.com/Puglover011/Puglovers-Hyprland/blob/Experimental/Screenshots/Forest_Tower.png?raw=true)
+![Island](https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/Screenshots/Island.png?raw=true)
+![Marmot](https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/Screenshots/Marmot.png?raw=true)
+![Mountainscape](https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/Screenshots/Mountainscape.png?raw=true)
+![Forest Tower](https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/Screenshots/Forest_Tower.png?raw=true)
 
 ## Dependencies
 
