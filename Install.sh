@@ -25,8 +25,16 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
   cp -r ./Configs/waybar ~/.config
   echo "Copying Wofi config..."
   cp -r ./Configs/wofi ~/.config
-  echo "Generating screenshots folder..."
-  mkdir ~/Pictures/Screenshots
+  echo
+  echo "Checking if screenshots folder exists..."
+
+  if [ -d "~/Pictures/Screenshots" ]; then
+    echo "Screenshot folder already exists. Continuing"
+  else 
+    echo "Screnshots folder doesnt exist. Creating..."
+    mkdir -p ~/Pictures/Screenshots
+  fi
+
   echo
   read -n 1 -p "Would you like to install optional wallpapers? [Y/N]" response2
   echo
