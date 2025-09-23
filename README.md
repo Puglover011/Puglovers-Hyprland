@@ -103,6 +103,7 @@ Configurations for the app menu (Wofi) are located in:
 If you find any issues, feel free to submit an issue!
 
 ## To-do List
+- If app menu is already open when SUPER is pressed, then close instad of opening duplicate window.
 
 ## Credits
 #### Wallpapers
