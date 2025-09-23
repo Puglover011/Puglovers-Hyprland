@@ -45,6 +45,7 @@ This is still an early version, there are bound to be bugs and issues. Please up
 * [Wofi](https://github.com/SimplyCEO/wofi)
 * [Mako](https://github.com/emersion/mako)
 * [Cliphist](https://github.com/sentriz/cliphist)
+* [Hyprpolkitagent](https://github.com/hyprwm/hyprpolkitagent)
 
 Dependencies will be installed automatically in later updates.
 
