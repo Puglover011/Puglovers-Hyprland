@@ -6,7 +6,7 @@ echo " - Hyprwall"
 echo " - WayBar"
 echo " - Wofi"
 echo
-echo "The script will also compile the following programs from source:
+echo "The script will also compile the following programs from source:"
 echo "It will ask for root (sudo) privileges. This is necessary in order for compilation to work."
 echo
 echo " - hyprpolkitagent"
