@@ -16,24 +16,47 @@ if [[ ! "$response" =~ ^[YyNn]$ ]]; then
 fi
 
 if [[ "$response" =~ ^[Yy]$ ]]; then
-  echo "Proceeding..."
-  echo "Copying Hyprland config..."
-  cp -r ./Configs/hypr ~/.config
-  echo "Copying Hyprwall config..."
-  cp -r ./Configs/hyprwall ~/.config
-  echo "Copying WayBar config..."
-  cp -r ./Configs/waybar ~/.config
-  echo "Copying Wofi config..."
-  cp -r ./Configs/wofi ~/.config
-  echo
-  echo "Checking if screenshots folder exists..."
 
-  if [ -d "~/Pictures/Screenshots" ]; then
+  echo "Checking if screenshots folder exists..."
+  if [ -d $HOME/Pictures/Screenshots ]; then
     echo "Screenshot folder already exists. Continuing"
   else 
-    echo "Screnshots folder doesnt exist. Creating..."
-    mkdir -p ~/Pictures/Screenshots
+    echo "Screenshots folder doesnt exist. Creating..."
+    mkdir -p $HOME/Pictures/Screenshots
   fi
+
+  echo "Checking if hyprpolkitagent is installed..."
+
+  AUTH_EXEC1="/usr/local/libexec/hyprpolkitagent"
+  AUTH_EXEC2="/usr/bin/hyprpolkitagent"
+
+  if [ -f "$AUTH_EXEC1" ]; then
+    echo "hyprpolkitagent already exists. Skipping."
+  else
+    if [ -f "$AUTH_EXEC2" ]; then
+      echo "hyprpolkitagent already exists. Skipping."
+    else
+      echo "hyprpolkitagent is not installed. Compiling..."
+      git clone https://github.com/hyprwm/hyprpolkitagent.git
+      cd hyprpolkitagent
+      mkdir build && cd build
+      cmake ..
+      make
+      sudo make install
+      sudo cp /usr/libexec/hyprpolkitagent /usr/bin/
+    fi
+  fi
+  
+  echo "Proceeding..."
+  echo "Copying Hyprland config..."
+  cp -r ./Configs/hypr $HOME/.config
+  echo "Copying Hyprwall config..."
+  cp -r ./Configs/hyprwall $HOME/.config
+  echo "Copying WayBar config..."
+  cp -r ./Configs/waybar $HOME/.config
+  echo "Copying Wofi config..."
+  cp -r ./Configs/wofi $HOME/.config
+  echo
 
   echo
   read -n 1 -p "Would you like to install optional wallpapers? [Y/N]" response2
@@ -52,10 +75,11 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
     echo "Copying wallpapers complete!"
     echo
     fi
-  
-  if [[ "$response2" =~ ^[Nn]$ ]]; then
-    echo "Skipping wallpapers."
+  else
+    echo "Skipping Wallpapers..."
     fi
+  
+
   
   echo "Installation has finished. You must reboot for these changes to take effect."
   read -n 1 -p "Would you like to reboot now? [Y/N]" response3
