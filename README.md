@@ -22,7 +22,7 @@ Minimal yet functional preconfigured setup for Hyprland. This is just something 
 
 - <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#known-issues">Known Issues</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#to-do-list">To-do List</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/Experimental/README.md#to-do-list">To-do List</a>
 
 - <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#credits">Credits</a>
 
