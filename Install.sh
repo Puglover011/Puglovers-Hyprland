@@ -7,8 +7,10 @@ echo " - WayBar"
 echo " - Wofi"
 echo
 echo "The script will also compile the following programs from source:
+echo "It will ask for root (sudo) privileges. This is necessary in order for compilation to work."
 echo
 echo " - hyprpolkitagent"
+echo 
 echo
 read -n 1 -p "Would you like to proceed? [Y/N] " response
 echo
