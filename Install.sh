@@ -37,7 +37,7 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
       echo "hyprpolkitagent already exists. Skipping."
     else
       echo "hyprpolkitagent is not installed. Compiling..."
-      git clone https://github.com/hyprwm/hyprpolkitagent.git
+      git clone https://github.com/hyprwm/hyprpolkitagent.git || { echo "Failed to clone hyprpolkitagent."; exit 1; }
       cd hyprpolkitagent
       mkdir build && cd build
       cmake ..
