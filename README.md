@@ -47,7 +47,7 @@ This is the experimental branch. New features being tested will happen here. I r
 * [Wofi](https://github.com/SimplyCEO/wofi)
 * [Mako](https://github.com/emersion/mako)
 * [Cliphist](https://github.com/sentriz/cliphist)
-* [Hyprpolkitagent](https://github.com/hyprwm/hyprpolkitagent)
+* [H̶y̶p̶r̶p̶o̶l̶k̶i̶t̶a̶g̶e̶n̶t̶](https://github.com/hyprwm/hyprpolkitagent) (This is now handled automatically during install. No prior attention required.)
 
 Dependencies will be installed automatically in later updates.
 
