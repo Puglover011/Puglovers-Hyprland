@@ -35,7 +35,8 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
   AUTH_EXEC2="/usr/bin/hyprpolkitagent"
 
   if [ -f "$AUTH_EXEC1" ]; then
-    echo "hyprpolkitagent already exists. Skipping."
+    echo "hyprpolkitagent already exists but is in the wrong directory. Copying."
+    sudo cp /usr/local/libexec/hyprpolkitagent /usr/bin
   else
     if [ -f "$AUTH_EXEC2" ]; then
       echo "hyprpolkitagent already exists. Skipping."
@@ -48,6 +49,8 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
       make
       sudo make install
       sudo cp /usr/libexec/hyprpolkitagent /usr/bin/
+      cd ../..
+      rm -rf hyprpolkitagent
     fi
   fi
   
@@ -83,7 +86,7 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
     echo "Skipping Wallpapers..."
     fi
   
-
+    
   
   echo "Installation has finished. You must reboot for these changes to take effect."
   read -n 1 -p "Would you like to reboot now? [Y/N]" response3
