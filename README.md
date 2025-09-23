@@ -22,12 +22,14 @@ Minimal yet functional preconfigured setup for Hyprland. This is just something 
 
 - <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/main/README.md#known-issues">Known Issues</a>
 
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/main/README.md#to-do-list">To-do List</a>
+
 - <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/main/README.md#credits">Credits</a>
 
   - <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/main/README.md#wallpapers">Wallpapers</a>
 
 ## Notice
-This is still an early version, there are bound to be bugs and issues. Please upload any issues through this GitHub page.
+This is the experimental branch. New features being tested will happen here. I reccomend downloading from the (main)[https://github.com/Puglover011/Puglovers-Hyprland] branch if you do not want unexpected issues to happen. I cannot guarantee the stability or functionality of this branch.
 
 **This script only installs the actual configuration files. All dependencies must be installed through other means otherwise core functions may not work**
 
@@ -101,6 +103,7 @@ Configurations for the app menu (Wofi) are located in:
 
 If you find any issues, feel free to submit an issue!
 
+## To-do List
 
 ## Credits
 #### Wallpapers
