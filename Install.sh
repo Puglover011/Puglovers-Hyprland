@@ -100,7 +100,7 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
   
   if [[ "$response3" =~ ^[Yy]$ ]]; then
     echo "Rebooting..."
-    reboot
+    sudo reboot
     exit 0
     
    else
