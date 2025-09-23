@@ -1,3 +1,5 @@
+echo
+echo
 echo "Thank you for downloading my Hyprland dotfiles. Would you like to install?"
 echo "WARNING: Installation of this configuration will overwrite existing configs for the following programs:"
 echo
@@ -13,7 +15,6 @@ echo " - hyprpolkitagent"
 echo 
 echo
 read -n 1 -p "Would you like to proceed? [Y/N] " response
-echo
 echo
 
 if [[ ! "$response" =~ ^[YyNn]$ ]]; then
@@ -50,19 +51,24 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
       cmake ..
       make
       sudo make install
-      sudo cp /usr/libexec/hyprpolkitagent /usr/bin/
+      sudo cp /usr/local/libexec/hyprpolkitagent /usr/bin/
       cd ../..
       rm -rf hyprpolkitagent
     fi
   fi
-  
+
+  echo
   echo "Proceeding..."
+  echo
   echo "Copying Hyprland config..."
   cp -r ./Configs/hypr $HOME/.config
+  echo
   echo "Copying Hyprwall config..."
   cp -r ./Configs/hyprwall $HOME/.config
+  echo
   echo "Copying WayBar config..."
   cp -r ./Configs/waybar $HOME/.config
+  echo
   echo "Copying Wofi config..."
   cp -r ./Configs/wofi $HOME/.config
   echo
