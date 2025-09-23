@@ -4,40 +4,42 @@ Minimal yet functional preconfigured setup for Hyprland. This is just something 
 
 ## Table of Contents
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/main/README.md#puglovers-minimal-hyprland">Title</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#puglovers-minimal-hyprland">Title</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/main/README.md#table-of-contents">Table of Contents</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#table-of-contents">Table of Contents</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/main/README.md#notice">Notice</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#notice">Notice</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/main/README.md#gallery">Gallery</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#gallery">Gallery</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/main/README.md#dependencies">Dependencies</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#dependencies">Dependencies</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/main/README.md#installation">Installation</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#installation">Installation</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/main/README.md#usage">Usage</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#usage">Usage</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/main/README.md#customise">Customise</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#customise">Customise</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/main/README.md#known-issues">Known Issues</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#known-issues">Known Issues</a>
 
-- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/main/README.md#credits">Credits</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#to-do-list">To-do List</a>
 
-  - <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/main/README.md#wallpapers">Wallpapers</a>
+- <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#credits">Credits</a>
+
+  - <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#wallpapers">Wallpapers</a>
 
 ## Notice
-This is still an early version, there are bound to be bugs and issues. Please upload any issues through this GitHub page.
+This is the experimental branch. New features being tested will happen here. I reccomend downloading from the (main)[https://github.com/Puglover011/Puglovers-Hyprland] branch if you do not want unexpected issues to happen. I cannot guarantee the stability or functionality of this branch.
 
 **This script only installs the actual configuration files. All dependencies must be installed through other means otherwise core functions may not work**
 
 
 ## Gallery
 
-![Island](https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Island.png?raw=true)
-![Marmot](https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Marmot.png?raw=true)
-![Mountainscape](https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Mountainscape.png?raw=true)
-![Forest Tower](https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Forest_Tower.png?raw=true)
+![Island](https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/Screenshots/Island.png?raw=true)
+![Marmot](https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/Screenshots/Marmot.png?raw=true)
+![Mountainscape](https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/Screenshots/Mountainscape.png?raw=true)
+![Forest Tower](https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/Screenshots/Forest_Tower.png?raw=true)
 
 ## Dependencies
 
@@ -45,7 +47,7 @@ This is still an early version, there are bound to be bugs and issues. Please up
 * [Wofi](https://github.com/SimplyCEO/wofi)
 * [Mako](https://github.com/emersion/mako)
 * [Cliphist](https://github.com/sentriz/cliphist)
-* [Hyprpolkitagent](https://github.com/hyprwm/hyprpolkitagent)
+* H̶y̶p̶r̶p̶o̶l̶k̶i̶t̶a̶g̶e̶n̶t̶ (This is now handled automatically during install. No prior attention required.)
 
 Dependencies will be installed automatically in later updates.
 
@@ -53,11 +55,11 @@ Dependencies will be installed automatically in later updates.
 
 Installation is simple. Just clone the repo and run Install.sh.
 ```shell
-git clone https://github.com/Puglover011/Puglovers-Hyprland.git
+git clone --branch experimental https://github.com/Puglover011/Puglovers-Hyprland.git
 cd Puglovers-Hyprland
 bash Install.sh
 ```
-Do not run the script as root. Doing so can cause permission issues with the configuration files.
+Do not run the script as root (sudo). Doing so can cause permission issues with the configuration files.
 
 ## Usage
 Here are some useful keybinds to know;
@@ -89,7 +91,6 @@ Configs for the utility bar are located in:
 Configurations for the app menu (Wofi) are located in:
 ````Directory
 ~/.config/wofi
-
 ````
 
 ## Known Issues
@@ -101,6 +102,8 @@ Configurations for the app menu (Wofi) are located in:
 
 If you find any issues, feel free to submit an issue!
 
+## To-do List
+- If app menu is already open when SUPER is pressed, then close instad of opening duplicate window.
 
 ## Credits
 #### Wallpapers
