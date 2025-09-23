@@ -97,7 +97,7 @@ Configurations for the app menu (Wofi) are located in:
 - Bluetooth icon not showing on utility bar on some devices.
 - Connecting to WiFi from the utility bar menu can be very problematic. I plan to replace this soon.
 - Log out button not working.
-- Authentication agent not authenticating.
+- Authentication agent not authenticating. _**This issue is being looked at.**_
 
 If you find any issues, feel free to submit an issue!
 
