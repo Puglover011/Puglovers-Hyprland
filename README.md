@@ -91,7 +91,6 @@ Configs for the utility bar are located in:
 Configurations for the app menu (Wofi) are located in:
 ````Directory
 ~/.config/wofi
-
 ````
 
 ## Known Issues
