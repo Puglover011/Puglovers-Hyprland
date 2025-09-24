@@ -31,7 +31,7 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
     echo "Screenshots folder doesnt exist. Creating..."
     mkdir -p $HOME/Pictures/Screenshots
   fi
-
+  
   #echo "Checking if hyprpolkitagent is installed..."
 
   #AUTH_EXEC1="/usr/local/libexec/hyprpolkitagent"
