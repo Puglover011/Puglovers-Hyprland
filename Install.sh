@@ -31,31 +31,31 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
     echo "Screenshots folder doesnt exist. Creating..."
     mkdir -p $HOME/Pictures/Screenshots
   fi
+  
+  #echo "Checking if hyprpolkitagent is installed..."
 
-  echo "Checking if hyprpolkitagent is installed..."
+  #AUTH_EXEC1="/usr/local/libexec/hyprpolkitagent"
+  #AUTH_EXEC2="/usr/bin/hyprpolkitagent"
 
-  AUTH_EXEC1="/usr/local/libexec/hyprpolkitagent"
-  AUTH_EXEC2="/usr/bin/hyprpolkitagent"
-
-  if [ -f "$AUTH_EXEC1" ]; then
-    echo "hyprpolkitagent already exists but is in the wrong directory. Copying."
-    sudo cp /usr/local/libexec/hyprpolkitagent /usr/bin
-  else
-    if [ -f "$AUTH_EXEC2" ]; then
-      echo "hyprpolkitagent already exists. Skipping."
-    else
-      echo "hyprpolkitagent is not installed. Compiling..."
-      git clone https://github.com/hyprwm/hyprpolkitagent.git || { echo "Failed to clone hyprpolkitagent."; exit 1; }
-      cd hyprpolkitagent
-      mkdir build && cd build
-      cmake ..
-      make
-      sudo make install
-      sudo cp /usr/local/libexec/hyprpolkitagent /usr/bin/
-      cd ../..
-      rm -rf hyprpolkitagent
-    fi
-  fi
+  #if [ -f "$AUTH_EXEC1" ]; then
+    #echo "hyprpolkitagent already exists but is in the wrong directory. Copying."
+    #sudo cp /usr/local/libexec/hyprpolkitagent /usr/bin
+  #else
+    #if [ -f "$AUTH_EXEC2" ]; then
+      #echo "hyprpolkitagent already exists. Skipping."
+    #else
+      #echo "hyprpolkitagent is not installed. Compiling..."
+      #git clone https://github.com/hyprwm/hyprpolkitagent.git || { echo "Failed to clone hyprpolkitagent."; exit 1; }
+      #cd hyprpolkitagent
+      #mkdir build && cd build
+      #cmake ..
+      #make
+      #sudo make install
+      #sudo cp /usr/local/libexec/hyprpolkitagent /usr/bin/
+      #cd ../..
+      #rm -rf hyprpolkitagent
+    #fi
+  #fi
 
   echo
   echo "Proceeding..."
