@@ -29,7 +29,7 @@ Minimal yet functional preconfigured setup for Hyprland. This is just something 
   - <a href="https://github.com/Puglover011/Puglovers-Hyprland/blob/experimental/README.md#wallpapers">Wallpapers</a>
 
 ## Notice
-This is the experimental branch. New features being tested will happen here. I reccomend downloading from the (main)[https://github.com/Puglover011/Puglovers-Hyprland] branch if you do not want unexpected issues to happen. I cannot guarantee the stability or functionality of this branch.
+This is still an early version, there are bound to be bugs and issues. Please upload any issues through this GitHub page.
 
 **This script only installs the actual configuration files. All dependencies must be installed through other means otherwise core functions may not work**
 
