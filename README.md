@@ -36,10 +36,10 @@ This is still an early version, there are bound to be bugs and issues. Please up
 
 ## Gallery
 
-![Island](https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Island.png?raw=true)
-![Marmot](https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Marmot.png?raw=true)
-![Mountainscape](https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Mountainscape.png?raw=true)
-![Forest Tower](https://github.com/Puglover011/Puglovers-Hyprland/blob/main/Screenshots/Forest_Tower.png?raw=true)
+![Island](https://raw.githubusercontent.com/Puglover011/Puglovers-Hyprland/refs/heads/main/Screenshots/Island.png)
+![Marmot](https://raw.githubusercontent.com/Puglover011/Puglovers-Hyprland/refs/heads/main/Screenshots/Marmot.png)
+![Mountainscape](https://raw.githubusercontent.com/Puglover011/Puglovers-Hyprland/refs/heads/main/Screenshots/Mountainscape.png)
+![Forest Tower](https://raw.githubusercontent.com/Puglover011/Puglovers-Hyprland/refs/heads/main/Screenshots/Forest_Tower.png)
 
 ## Dependencies
 
