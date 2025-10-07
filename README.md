@@ -48,6 +48,7 @@ This is the experimental branch. New features being tested will happen here. I r
 * [Mako](https://github.com/emersion/mako)
 * [Cliphist](https://github.com/sentriz/cliphist)
 * [Iwgtk](https://github.com/J-Lentz/iwgtk)
+* [LXQt PolicyKit agent](https://github.com/lxqt/lxqt-policykit)
 * Iwd (Most likely available in your distros repos)
 * H̶y̶p̶r̶p̶o̶l̶k̶i̶t̶a̶g̶e̶n̶t̶ (This is now handled automatically during install. No prior attention required.)
 
