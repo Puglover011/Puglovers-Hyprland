@@ -72,6 +72,9 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
   echo "Copying Wofi config..."
   cp -r ./Configs/wofi $HOME/.config
   echo
+  echo "Enabling iwd"
+  sudo systemctl enable iwd
+  echo
 
   echo
   read -n 1 -p "Would you like to install optional wallpapers? [Y/N]" response2
