@@ -34,7 +34,7 @@
     "format-ethernet": "",
     "format-disconnected": "⚠",
     "tooltip-format": "{essid} {ipaddr}",
-    "on-click": "nm-connection-editor",
+    "on-click": "iwgtk",
     "format-icons": [ "睊", "直", "盛", "", ""] },
 
 
