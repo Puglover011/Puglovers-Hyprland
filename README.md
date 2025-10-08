@@ -57,7 +57,7 @@ Dependencies will be installed automatically in later updates.
 
 Installation is simple. Just clone the repo and run Install.sh.
 ```shell
-git clone --branch experimental https://github.com/Puglover011/Puglovers-Hyprland.git
+git clone https://github.com/Puglover011/Puglovers-Hyprland.git
 cd Puglovers-Hyprland
 bash Install.sh
 ```
