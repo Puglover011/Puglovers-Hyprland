@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Check if hyprshot-gui is already running
+pid=$(pgrep -f "/usr/bin/hyprshot-gui")
+
+if [ -n "$pid" ]; then
+    # If it's running, kill the existing process
+    kill -9 $pid
+else
+    # If it's not running, launch hyprshot-gui
+    hyprshot-gui
+fi

@@ -8,12 +8,12 @@ echo " - Hyprwall"
 echo " - WayBar"
 echo " - Wofi"
 echo
-echo "The script will also compile the following programs from source:"
-echo "It will ask for root (sudo) privileges. This is necessary in order for compilation to work."
-echo
-echo " - hyprpolkitagent"
-echo 
-echo
+# echo "The script will also compile the following programs from source:"
+echo "It will ask for root (sudo) privileges. This is necessary in order for specific operations to work."
+# echo
+# echo " - I got nothing here rn"
+# echo 
+# echo
 read -n 1 -p "Would you like to proceed? [Y/N] " response
 echo
 
@@ -57,6 +57,8 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
     #fi
   #fi
 
+  # I'm only keeping that block so I can use it in the future to compile other dependencies.
+
   echo
   echo "Proceeding..."
   echo
@@ -71,6 +73,11 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
   echo
   echo "Copying Wofi config..."
   cp -r ./Configs/wofi $HOME/.config
+  echo
+  echo "Adding wofi start command (wofi_start)"
+  sudo cp ./Configs/hypr/scripts/wofi_start /usr/bin
+  echo
+  echo "Adding iwgtk start command (HShotGUI)"
   echo
   echo "Enabling iwd"
   sudo systemctl enable iwd

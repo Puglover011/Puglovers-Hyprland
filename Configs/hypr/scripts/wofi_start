@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if pgrep -f "wofi --show drun" > /dev/null; then
+    # Wofi is running, execute the desired command
+    killall wofi
+
+else
+    # Wofi is not running, you can either launch it or do something else
+    wofi --show drun
+fi
+

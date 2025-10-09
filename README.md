@@ -98,14 +98,13 @@ Configurations for the app menu (Wofi) are located in:
 ## Known Issues
 - Wallpaper not transferring between sessions.
 - Bluetooth icon not showing on utility bar on some devices.
-- Connecting to WiFi from the utility bar menu can be very problematic. I plan to replace this soon.
 - Log out button not working.
-- Authentication agent not authenticating.
 
 If you find any issues, feel free to submit an issue!
 
 ## To-do List
-- If app menu is already open when SUPER is pressed, then close instad of opening duplicate window.
+- Fix major delay when opening bluetooth GUI.
+- Fix all the bugs. Obviously.
 
 ## Credits
 #### Wallpapers
