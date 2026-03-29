@@ -105,7 +105,9 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
     fi
   
     
-  
+
+  cd ..
+  rm -rf Puglovers-Hyprland
   echo "Installation has finished. You must reboot for these changes to take effect."
   read -n 1 -p "Would you like to reboot now? [Y/N]" response3
   echo
