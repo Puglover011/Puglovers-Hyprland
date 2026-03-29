@@ -58,7 +58,8 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
   #fi
 
   # I'm only keeping that block so I can use it in the future to compile other dependencies.
-
+  echo "Installing Hyprwall (Hyprland wallpaper GUI)."
+  yay -S hyprwall
   echo
   echo "Proceeding..."
   echo
@@ -83,8 +84,8 @@ if [[ "$response" =~ ^[Yy]$ ]]; then
   sudo systemctl enable iwd
   echo
 
-  echo
-  read -n 1 -p "Would you like to install optional wallpapers? [Y/N]" response2
+  echo "Would you like to install optional wallpapers? All wallpapers are published under suitable licenses. Credits are listed on the GitHub page."
+  read -n 1 -p "Install wallpapers? [Y/N]" response2
   echo
   echo
   
