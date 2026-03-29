@@ -1,6 +1,6 @@
 # Puglover's Minimal Hyprland
 
-Minimal yet functional preconfigured setup for Hyprland. This is just something I've been working on in my free time. Its not much, but I will continue to improve it over time. I will try to fix any bugs that I find or are reported to me, but there is no guarantee as to when/if it will get patched.
+Minimal yet functional preconfigured setup for Hyprland. This is just something I've been working on in my free time. Its not much, but I will continue to improve it over time. I will try to fix any bugs that I find or are reported to me, but there is no guarantee as to when/if they will get patched.
 
 ## Table of Contents
 
@@ -31,7 +31,7 @@ Minimal yet functional preconfigured setup for Hyprland. This is just something 
 ## Notice
 This is still an early version, there are bound to be bugs and issues. Please upload any issues through this GitHub page.
 
-**This script only installs the actual configuration files. All dependencies must be installed through other means otherwise core functions may not work**
+**This script only installs the actual configuration files. All dependencies must be installed through other means, otherwise core functions may not work**
 
 
 ## Gallery
@@ -61,7 +61,7 @@ git clone https://github.com/Puglover011/Puglovers-Hyprland.git
 cd Puglovers-Hyprland
 bash Install.sh
 ```
-Do not run the script as root (sudo). Doing so can cause permission issues with the configuration files.
+Do not run the script as root (su/sudo). Doing so can cause permission issues with the configuration files.
 
 ## Usage
 Here are some useful keybinds to know;
@@ -76,7 +76,7 @@ Ctrl + alt + T
 SUPER + W
 ```
 
-- To force close the currently focused window:
+- To close the currently focused window:
 ```Keystroke
 SUPER + Q
 ````
@@ -96,11 +96,11 @@ Configurations for the app menu (Wofi) are located in:
 ````
 
 ## Known Issues
-- Wallpaper not transferring between sessions.
+- Wallpaper not saving between sessions.
 - Bluetooth icon not showing on utility bar on some devices.
 - Log out button not working.
 
-If you find any issues, feel free to submit an issue!
+If you find any issues, feel free to submit a ticket!
 
 ## To-do List
 - Fix major delay when opening bluetooth GUI.
